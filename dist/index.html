@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimino</title>
+    <link rel="stylesheet" href="/hotel.b07a87f3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/favicon.4b098219.svg">
+    <link rel="icon" type="image/png" href="/favicon.eb8acdc7.png">
+    
+    <script src="/hotel.975ef6c8.js" defer=""></script>
+
+    <!-- slick-slider -->
+    <!-- Add the slick-theme.css if you want default styling -->
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  </head>
+  <body>
+    <header class="header__section">
+  <div class="container">
+    <nav class="nav__line">
+      <!-- font face не працює для посилання -->
+      <a href="/index.html">
+        <p class="header__logo">MIMIHO</p>
+      </a>
+      <ul class="nav__list">
+        <li>
+          <ul class="nav__item">
+            <li><a class="nav__link" href="/restaurant.html">Ресторан</a></li>
+            <!-- іконка для мобільної, прибирається на таблеті й декстопі -->
+            <li class="tablet-desc-hide">
+              <a href="tel:+0955559533">
+                <svg class="header__icon-contacts">
+                  <use href="/sprite.f14d31f7.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- іконка та номер, прибирається в мобільній -->
+            <li>
+              <div class="tablet-desc-show">
+                <a class="header__contacts" href="tel:+0955559533">
+                  <svg class="header__icon-contacts">
+                    <use href="/sprite.f14d31f7.svg#phone"></use>
+                  </svg>095 555 95 33
+                </a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="nav__item">
+            <li><a class="nav__link" href="/hotel.html">Готель</a></li>
+            <!-- іконка для мобільної, прибирається на таблеті й декстопі -->
+            <li class="tablet-desc-hide">
+            <a href="tel:+0668491089">
+              <svg class="header__icon-contacts">
+                <use href="/sprite.f14d31f7.svg#phone"></use>
+              </svg>
+              </a>
+            </li>
+             <!-- іконка та номер, прибирається в мобільній -->
+            <li>
+              <div class="tablet-desc-show holel-numbers">
+              <a class="header__contacts" href="tel:+0668491089">
+                <svg class="header__icon-contacts">
+                  <use href="/sprite.f14d31f7.svg#phone"></use>
+                </svg>
+                <p class="mob-hide-tel">066 849 10 89</p>
+              </a>
+              <a href="tel:+0672758540">
+                <p class="mob-hide-tel">067 275 85 40</p>
+              </a>
+            </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- у мобільному та таблеті соц.мережі переходять в hero -->
+      <div class="mob-hide-socials header__socials">
+        <ul class="header__socials-list">
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>   
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+  <div class="container hero-container">
+    <h1 class="hero__title">MIMIHO</h1>
+    <h2 class="hero__subtitle">Ресторанно-готельний комплекс</h2>
+    <p class="hero__slogan">смак життя 24/7</p>
+    <!-- додати атрибут для модалки -->
+    <div class="reserved">
+      <button type="button" class="reserved__button reserved__table">
+        Забронювати столик
+      </button>
+      <!-- додати атрибут для модалки -->
+      <button type="button" class="reserved__button reserved__room" data-modal-open="">
+        Забронювати номер
+      </button>
+    </div>
+    <address class="hero__address">
+      <svg class="icon-gps" width="20" height="20">
+        <use href="/sprite.f14d31f7.svg#gps"></use>
+      </svg>
+      <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="link address">Україна, м. Полтава, <br>
+        вул. Маршала Бірюзова, 15</a>
+    </address>
+    <!-- додати шляхи до соцмереж -->
+    <ul class="soc__list list">
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#instagram"></use></svg></a>
+      </li>
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#facebook"></use></svg></a>
+      </li>
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#telegram"></use></svg></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-res">
+  <div class="container">
+    <div class="about-res__pos">
+      <h2 class="is-hidden">Про наш Ресторан</h2>
+      <div class="about-res__contain">
+        <p class="about-res__pretitle pretitle">Amet minim mollit non</p>
+        <p class="about-res__title title">MIMIHO</p>
+        <p class="about-res__text text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <div class="about-res__thumb">
+        <picture>
+          <source srcset="/image-1.9371e417.jpg    1x, /image-1-2x.86b8d6ee.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-1.aaeb131f.jpg    1x, /image-1-2x.558159df.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-1.162d2675.jpg    1x, /image-1-2x.b0c237e8.jpg 2x" media="(min-width: 414px)">
+          <img class="about-res__image" src="/image-1-2x.b0c237e8.jpg" alt="Наш ресторан" width="460">
+        </picture>
+      </div>
+    </div>
+    <div class="about-res__container">
+      <div class="about-res__pic">
+        <picture>
+          <source srcset="/image-2.0824621f.jpg    1x, /image-2-2x.6607eff1.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-2.58243376.jpg    1x, /image-2-2x.b1377ac8.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-2.2c037e09.jpg    1x, /image-2-2x.143a32d0.jpg 2x" media="(min-width: 414px)">
+          <img class="about-res__image" src="/image-2-2x.143a32d0.jpg" alt="Наш ресторан" width="460">
+        </picture>
+      </div>
+      <p class="about-res__desc text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="about-res__wrapper">
+      <div class="slider-about about-res__slider">
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-19.f01383a7.jpg    1x, /image-19-2x.57eb793c.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-21.e6e5bcc3.jpg    1x, /image-21-2x.d8c98328.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-19.5ea3f3c2.jpg    1x, /image-19-2x.4d741573.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-19-2x.57eb793c.jpg" alt="Зображення слайдеру" width="254"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-20.56ae1c85.jpg    1x, /image-20-2x.1e732d67.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-22.93ebbfd2.jpg    1x, /image-22-2x.c9954604.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-20.56ae1c85.jpg    1x, /image-20-2x.1e732d67.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-20-2x.1e732d67.jpg" alt="Зображення слайдеру" width="254"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-9.fe38abb0.jpg    1x, /image-9-2x.79a01c2e.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-9.6c0668e8.jpg    1x, /image-9-2x.8c2f5c62.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-9.fe38abb0.jpg    1x, /image-9-2x.79a01c2e.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-9-2x.79a01c2e.jpg" alt="Зображення слайдеру" width="254"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-16.2b403ce9.jpg    1x, /image-16-2x.409ffe8c.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-16.1b455575.jpg    1x, /image-16-2x.f2eb4e85.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-16.2b403ce9.jpg    1x, /image-16-2x.409ffe8c.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-16-2x.409ffe8c.jpg" alt="Зображення слайдеру" width="254"></picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="details-restaurant__section">
+
+<div class="container details-restaurant ">
+    <div class="details-restaurant__wrapper">
+        <p class="details-restaurant__title title">MIMIHO</p>
+        <h2 class="details-restaurant__caption ">Ресторан</h2>
+        <p class="details-restaurant__dscr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+        mollit.</p>
+    
+    </div>  
+    
+    
+    <!-- SLIDER -->
+   
+    
+    <div class="buttons">
+        <button type="button" class="button ">
+            Забронювати столик
+        </button>
+        <button type="button" class="button ">
+        Переглянути меню 
+        </button>
+    </div>
+
+</div>  
+</section>
+      <section class="about-hotel">
+  <div class="container">
+    <div class="about-hotel__pos">
+      <h2 class="is-hidden">Про наш Готель</h2>
+      <div class="about-hotel__contain">
+        <p class="about-hotel__pretitle pretitle">Amet minim mollit non</p>
+        <p class="about-hotel__title title">Mimino</p>
+        <p class="about-hotel__text text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <div class="about-hotel__thumb">
+        <picture>
+          <source srcset="/image-1.09ae5005.jpg    1x, /image-1-2x.5dbf2ef2.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-1.91d135cc.jpg    1x, /image-1-2x.16a3f8e1.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-1.d05812cf.jpg    1x, /image-1-2x.a0d8e504.jpg 2x" media="(min-width: 414px)">
+          <img class="about-hotel__image" src="/image-1-2x.a0d8e504.jpg" alt="Наш готель" width="460">
+        </picture>
+      </div>
+    </div>
+    <div class="about-hotel__container">
+      <p class="about-hotel__desc text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+      <div class="about-hotel__pic">
+        <picture>
+          <source srcset="/image-2.1b6dc995.jpg    1x, /image-2-2x.8e067b9f.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-2.7ad704e9.jpg    1x, /image-2-2x.e8217e35.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-2.7d3a7520.jpg    1x, /image-2-2x.3ead5f37.jpg 2x" media="(min-width: 414px)">
+          <img class="about-hotel__image" src="/image-2-2x.3ead5f37.jpg" alt="Наш готель" width="460">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="details">
+    <div class="container hero-overlay">
+        <div class="details-hotel_info">
+            <p class="details_logo title">MIMIHO</p>
+            <h2 class="details_title">Готель</h2>
+            <p class="details_text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+        </div>
+        <div class="details-hotel_container">
+            <div class="multiple-items">
+                <div class="slick-track ">
+                    <picture>
+                        <source srcset="/image-1.d8a5312f.jpg    1x, /image-1-2x.d83bb92c.jpg 2x" media="(min-width: 1280px)">
+                        <source srcset="/image-1.d8a5312f.jpg    1x, /image-1-2x.d83bb92c.jpg 2x" media="(min-width: 1024px)">
+                        <source srcset="/image-1.d8a5312f.jpg    1x, /image-1-2x.d83bb92c.jpg 2x" media="(min-width: 414px)">
+                        <img src="/image-1.d8a5312f.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="slick-track ">
+                    <picture>
+                        <source srcset="/image-2.3eb667e8.jpg    1x, /image-2-2x.fdbeae09.jpg 2x" media="(min-width: 1280px)">
+                        <source srcset="/image-2.3eb667e8.jpg    1x, /image-2-2x.fdbeae09.jpg 2x" media="(min-width: 1024px)">
+                        <source srcset="/image-2.3eb667e8.jpg    1x, /image-2-2x.fdbeae09.jpg 2x" media="(min-width: 414px)">
+                        <img src="/image-2.3eb667e8.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="slick-track ">
+                    <picture>
+                        <source srcset="/image-3.1ccfc381.jpg    1x, /image-3-2x.4ec77e6e.jpg 2x" media="(min-width: 1280px)">
+                        <source srcset="/image-3.1ccfc381.jpg    1x, /image-3-2x.4ec77e6e.jpg 2x" media="(min-width: 1024px)">
+                        <source srcset="/image-3.1ccfc381.jpg    1x, /image-3-2x.4ec77e6e.jpg 2x" media="(min-width: 414px)">
+                        <img src="/image-3.1ccfc381.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+                <!-- <div class="details_icon-svg">
+                    <svg class="slick-prev-left" width="32" height="32">
+                        <use href="./images/sprite.svg#icon-cil_arrow-left"></use>
+                    </svg>
+                    <svg class="slick-next-right" width="32" height="32">
+                        <use href="./images/sprite.svg#icon-cil_arrow-right"></use>
+                    </svg>
+                </div> -->
+            <div class="details-hotel_button">
+                <button type="button" class="details_button button">Забронювати номер</button>
+                <button type="button" class="details_button button">Переглянути ціни</button>
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="contacts">
+  <div class="container">
+    <h2 class="section-title__visually-hidden">
+      Контакти готельно-ресторанного коплексу "Міміно"
+    </h2>
+    <div>
+      <h2 class="title contacts__title">MIMIHO</h2>
+      <h3 class="subtitle contacts__subtitle">Ресторанно-готельний комплекс</h3>
+
+      <address>
+        <ul class="contacts__list">
+          <li class="list contacts__item">
+            <span class="contacts__label">Ресторан</span><a href="tel:+380955559533" class="link contacts__link">
+              <svg width="24px" height="24px" class="contacts__link-icon">
+                <use href="/sprite.f14d31f7.svg#phone"></use>
+              </svg>
+              <p class="contacts__text">095 555 95 33</p>
+            </a>
+          </li>
+          <li class="list contacts__item">
+            <span class="contacts__label">Готель</span><a href="tel:+380668491089" class="link contacts__link">
+              <svg width="24px" height="24px" class="contacts__link-icon">
+                <use href="/sprite.f14d31f7.svg#phone"></use>
+              </svg>
+              <p class="contacts__text">066 849 10 89</p>
+              <p class="contacts__text contacts__text--ml">067 275 85 40</p>
+            </a>
+          </li>
+          <li class="list contacts__item">
+            <span class="is-hide contacts__label">Ресторан</span><a href="" class="link contacts__link">
+              <svg width="24px" height="24px" class="contacts__link-icon">
+                <use href="/sprite.f14d31f7.svg#icon-Vector"></use>
+              </svg>
+              <div class="contacts__text--gps">
+                <p class="contacts__text">Україна, м. Полтава,</p>
+                <div class="contacts__text--two-lines">
+                  <p class="contacts__text">вул. Маршала</p>
+                  <p class="contacts__text">Бірюзова, 15</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
+    <div class="contacts__map">
+      <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141606.55191896524!2d34.40659791964909!3d49.589809075692315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDM2MDAw!5e1!3m2!1suk!2sua!4v1670685311276!5m2!1suk!2sua" width="100%" height="100%" ="border:="" 0"="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <!-- <footer class="footer">
+  <div class="footer__container">
+    <a href="#" class="footer__logo">Mimino</a>
+
+    <div class="footer__menu">
+      <ul>
+        <li class="list footer__menu-item">
+          <a href="" class="link footer__link">Головна</a>
+        </li>
+        <li class="list footer__menu-item">
+          <a href="" class="link footer__link">Ресторан</a>
+        </li>
+        <li class="list footer__menu-item">
+          <a href="./hotel.html" class="link footer__link">Готель</a>
+        </li>
+      </ul>
+
+      <div class="footer__social--mob">
+        <ul class="footer__soc">
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="19.5px" height="17.5px">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__btn-social">
+      <ul class="footer__btn-soc">
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Instagram</span>
+            <a href="" class="soc__icon">
+              <svg width="20 px" height="20 px">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Facebook</span>
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Telegram</span>
+            <a href="" class="soc__icon">
+              <svg width="19.5px" height="17.5px">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer> -->
+
+
+<!-- Соня нижче -->
+
+<footer class="footer__section">
+  <div class="container footer__container">
+    <div class="footer__logo-box">
+      <a href="/index.html">
+        <p class="footer__logo">MIMIHO</p>
+      </a>
+    </div>
+    <div class="footer__container-item">
+      <ul class="footer__nav-list">
+        <li><a class="footer__nav-item" href="/index.html">Головна</a></li>
+        <li><a class="footer__nav-item" href="/restaurant.html">Ресторан</a></li>
+        <li><a class="footer__nav-item" href="/hotel.html">Готель</a></li>
+      </ul>
+      <!-- соцмережі при мобільному -->
+      <ul class="footer__soc-list tablet-desc-hide">
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+  </div>
+
+    <!-- соцмережі при таблеті та десктопі -->
+    <ul class="mob-footer-hide footer__desk-soc-list">
+      <li>
+        <a class="footer__desk-soc-item" href="">Telegram
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#telegram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="footer__desk-soc-item" href="">Facebook
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#facebook"></use>
+          </svg>
+
+        </a>
+      </li>
+      <li>
+        <a class="footer__desk-soc-item" href="">Instagram
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</footer>
+
+    <!-- модальны вікна -->
+    <div class="backdrop is-hidden" data-modal="">
+
+<div class="modal modal-section">
+  <!-- book room -->
+  <div class="modal-room">
+    <!-- close modal button -->
+    <svg class="data-modal-close modal-close-btn" data-modal-close="">
+      <use href="/sprite.f14d31f7.svg#icon-x"></use>
+    </svg>
+
+    <h2 class="modal-title">забронювати номер</h2>
+    <form>
+      <div class="tab-desk-form-wrapper">
+        <div class="tdfw-item">
+          <input class="modal-info" type="text" name="client" id="client" placeholder="Ваше ім'я">
+          <label class="modal-label" for="client">
+            На кого забронювати номер?</label>
+        </div>
+        <div class="tdfw-item">
+          <input class="modal-info" type="tel" name="tel" id="tel" placeholder="+38 (___) ___-__-__" value="+38 (___) ___-__-__" pattern="+38[0-9]{3}[0-9]{3}-[0-9]{2}-[0-9]{2}">
+          <label class="modal-label" for="tel"> Номер телефону</label>
+        </div>
+        <div class="tdfw-item"></div>
+        <div class="tdfw-item">
+          <select class="modal-info" id="room-type" name="room-type">
+            <option value="double-luxe">Двомісний люкс</option>
+            <option value="triple">Трьохмісний</option>
+            <option value="double">Двомісний</option>
+          </select>
+          <label class="modal-label" for="room-type">Категорія номеру</label>
+        </div>
+        <div class="tdfw-item">
+          <select class="modal-info" id="date-arrival" name="date-arrival">
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+            <option value="after-tomorrow">Післязавтра</option>
+          </select>
+          <label class="modal-label" for="date-arrival">Дата заїзду</label>
+        </div>
+        <div class="tdfw-item">
+          <select class="modal-info" id="date-leave" name="date-leave">
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+            <option value="after-tomorrow">Післязавтра</option>
+          </select>
+          <label class="modal-label last-label" for="date-leave">Дата виїзду</label>
+        </div>
+      </div>
+
+      <!-- оформити бронювання закриває модальше вікно -->
+      <button class="modal-submit-btn" type="submit">
+        оформити бронювання
+      </button>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<!-- підкладка затемнення під модільним вікном -->
+<!-- <div class="overlay" id="overlay-modal is-hidden"></div> -->
+    <div class="backdrop is-hidden" data-modal="">
+
+<div class="modal modal-section">
+    <!-- book room -->
+    <div class="modal-room">
+      <!-- close modal button -->
+      <svg class="js-modal-close modal-close-btn">
+        <use href="/sprite.f14d31f7.svg#icon-x"></use>
+      </svg>
+  
+      <h2 class="modal-title">ціни на номер</h2>
+      <h2 class="modal-subtitle">Двомісний люкс</h2>
+
+      <p class="room-category">Категорія номеру</p>
+      <form>
+        <div class="tab-desk-form-wrapper">
+        <div class="tdfw-item">
+            <select class="modal-info" id="nights-quantity" name="nights-quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="1">4</option>
+              <option value="2">5</option>
+              <option value="3">6</option>
+              <option value="3">7</option>
+            </select>
+            <label class="modal-label" for="nights-quantity">Кількість ночей</label>
+          </div>
+          <div class="tdfw-item">
+            <input class="modal-info" type="price" name="price" id="price" value="1000" pattern="[0-9]{4}">
+            <label class="modal-label last-label" for="price">грн</label>
+          </div>        
+        </div>
+  
+        <!-- оформити бронювання закриває модальше вікно -->
+        <button class="modal-submit-btn" type="submit">
+          забронювати номер
+        </button>
+      </form>
+    </div>
+  </div>
+
+  </div>
+  
+  <!-- підкладка затемнення під модільним вікном -->
+  <!-- <div class="overlay" id="overlay-modal"></div> -->
+    <!-- <div class=" modal-section">
+  <div class="modal-table">
+    <button type="button" class="modal-btn" data-modal-close></button
+    ><svg class="model-close-icon" width="24" height="24">
+      <use></use>
+    </svg>
+
+    <p class="modal-titel">забронювати столик</p>
+    <form class="form">
+      <label class="modal-lable"
+        ><input
+          class="modal-input"
+          type="text"
+          name="client"
+          placeholder="Ваше ім'я"
+        />На кого забронювати столик?</label
+      >
+      <label class="modal-lable"
+        ><input
+          class="modal-input"
+          type="text"
+          name="tel"
+          placeholder="+38 (___) ___-__-__"
+        />Номер телефону</label
+      >
+
+      <select id="table" name="table">
+        <option value="two">2</option>
+        <option value="thre">3</option>
+        <option value="four">4</option>
+      </select>
+      <lable class="modal-lable" for="table"
+        >Столик на яку кількість осіб?</lable
+      >
+
+      <select id="reservation" name="reservation">
+        <option value="today">Сьогодні</option>
+        <option value="tomorrow">Завтра</option>
+        <option value="after-tomorow">Післязавтра</option>
+      </select>
+      <label class="modal-lable" for="reservation"
+        >На яку дату бронювати?</label
+      >
+
+      <button class="modal-resevation" type="submit">
+        оформити бронювання
+      </button>
+    </form>
+  </div>
+</div> -->
+
+<!-- Соня нижче -->
+
+<div class="backdrop is-hidden">
+  <div class="modal modal-section">
+    <!-- book room -->
+    <div class="modal-room">
+      <!-- close modal button -->
+      <svg class="data-modal-close modal-close-btn">
+        <use href="/sprite.f14d31f7.svg#icon-x"></use>
+      </svg>
+  
+      <h2 class="modal-title">забронювати столик</h2>
+      <form>
+        <div class="tab-desk-form-wrapper">
+          <div class="tdfw-item">
+            <input class="modal-info" type="text" name="client" id="client" placeholder="Ваше ім'я">
+            <label class="modal-label" for="client">
+              На кого забронювати номер?</label>
+          </div>
+          <div class="tdfw-item">
+            <input class="modal-info" type="tel" name="tel" id="tel" placeholder="+38 (___) ___-__-__" value="+38 (___) ___-__-__" pattern="+38[0-9]{3}[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            <label class="modal-label" for="tel"> Номер телефону</label>
+          </div>
+          <div class="tdfw-item">
+            <select class="modal-info" id="room-type" name="room-type">
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <label class="modal-label" for="room-type">Столик на яку кількість осіб?</label>
+          </div>
+          <div class="tdfw-item">
+            <select class="modal-info" id="date-leave" name="date-leave">
+              <option value="today">Сьогодні</option>
+              <option value="tomorrow">Завтра</option>
+              <option value="after-tomorrow">Післязавтра</option>
+            </select>
+            <label class="modal-label last-label" for="date-leave">На яку дату бронювати?</label>
+          </div>
+        </div>
+  
+        <!-- оформити бронювання закриває модальше вікно -->
+        <button class="modal-submit-btn" type="submit">
+          оформити бронювання
+        </button>
+      </form>
+    </div>
+  </div>
+  
+  </div>
+  
+  <!-- підкладка затемнення під модільним вікном -->
+  <!-- <div class="overlay" id="overlay-modal is-hidden"></div> -->
+
+    <!-- slick jquery js -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- slick js -->
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- slick - скрипт для запуску -->
+    <script src="/restaurant.d717632a.js" defer=""></script>
+
+    <script src="/index.99cd9620.js" defer=""></script>
+
+    <!-- book-room-modal -->
+
+    <script src="/index.1a4a4e15.js"></script>
+  </body>
+</html>

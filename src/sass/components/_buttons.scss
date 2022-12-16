@@ -1,0 +1,61 @@
+%button_properties {
+  cursor: pointer;
+  display: block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 236px;
+  text-align: center;
+}
+
+.button {
+  @extend %button_properties;
+  @include font(700, 16px, 20px, 0.02em);
+  color: var(--accent-color);
+  background-color: var(--inactive-button-color-1);
+  border: 2px solid var(--white);
+  border-radius: 25px;
+  &:hover,
+  &:focus {
+    background-color: var(--focus-button-color-1);
+    border: 2px solid var(--focus-button-color-1);
+    border-radius: 25px;
+  }
+}
+
+.secondary_button {
+  @extend %button_properties;
+  @include font(700, 16px, 20px, 0.02em);
+  color: var(--accent-color);
+  background-color: var(--inactive-button-color-2);
+  border: 2px solid var(--white);
+  border-radius: 25px;
+  &:hover,
+  &:focus {
+    background-color: var(--focus-button-color-1);
+    border: 2px solid var(--focus-button-color-2);
+    border-radius: 25px;
+  }
+}
+
+.nomer__button {
+  cursor: pointer;
+  display: block;
+  padding: 20px 43px;
+  // width: 236px;
+  text-align: center;
+  @include font(500, 20px, 24px, null);
+  color: var(--white);
+  text-transform: uppercase;
+  background-color: var(--inactive-button-color-2);
+  border: 1px solid var(--focus-button-color-2);
+  border-radius: 25px;
+  &:hover,
+  &:focus {
+    background-color: var(--focus-button-color-2);
+    color: var(--primary-text-color-2);
+  }
+  @include tablet {
+    padding: 18px 38px;
+    @include font(500, 24px, 29px, null);
+  }
+}

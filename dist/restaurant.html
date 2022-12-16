@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="/hotel.b07a87f3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/favicon.4b098219.svg">
+    <link rel="icon" type="image/png" href="/favicon.eb8acdc7.png">
+    <script src="/hotel.975ef6c8.js" defer=""></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  </head>
+  <body>
+    <header class="header__section">
+  <div class="container">
+    <nav class="nav__line">
+      <!-- font face не працює для посилання -->
+      <a href="/index.html">
+        <p class="header__logo">MIMIHO</p>
+      </a>
+      <ul class="nav__list">
+        <li>
+          <ul class="nav__item">
+            <li><a class="nav__link" href="/restaurant.html">Ресторан</a></li>
+            <!-- іконка для мобільної, прибирається на таблеті й декстопі -->
+            <li class="tablet-desc-hide">
+              <a href="tel:+0955559533">
+                <svg class="header__icon-contacts">
+                  <use href="/sprite.f14d31f7.svg#phone"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- іконка та номер, прибирається в мобільній -->
+            <li>
+              <div class="tablet-desc-show">
+                <a class="header__contacts" href="tel:+0955559533">
+                  <svg class="header__icon-contacts">
+                    <use href="/sprite.f14d31f7.svg#phone"></use>
+                  </svg>095 555 95 33
+                </a>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="nav__item">
+            <li><a class="nav__link" href="/hotel.html">Готель</a></li>
+            <!-- іконка для мобільної, прибирається на таблеті й декстопі -->
+            <li class="tablet-desc-hide">
+            <a href="tel:+0668491089">
+              <svg class="header__icon-contacts">
+                <use href="/sprite.f14d31f7.svg#phone"></use>
+              </svg>
+              </a>
+            </li>
+             <!-- іконка та номер, прибирається в мобільній -->
+            <li>
+              <div class="tablet-desc-show holel-numbers">
+              <a class="header__contacts" href="tel:+0668491089">
+                <svg class="header__icon-contacts">
+                  <use href="/sprite.f14d31f7.svg#phone"></use>
+                </svg>
+                <p class="mob-hide-tel">066 849 10 89</p>
+              </a>
+              <a href="tel:+0672758540">
+                <p class="mob-hide-tel">067 275 85 40</p>
+              </a>
+            </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- у мобільному та таблеті соц.мережі переходять в hero -->
+      <div class="mob-hide-socials header__socials">
+        <ul class="header__socials-list">
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="header__socials-item" href="">
+              <svg class="header__icon-socials" width="24" height="24">
+                <use href="/sprite.f14d31f7.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>   
+  </div>
+</header>
+
+    <main>
+      <section class="section hero-restaurant">
+  <div class="container hero-container">
+
+    <h1 class="hero__title">МІМІНО</h1>
+
+    <h2 class="hero__subtitle">Ресторан</h2>
+    <p class="hero__slogan">смак життя 24/7</p>
+    <div class="reserved">
+      <!-- додати атрибут для модалки -->
+      <button type="button" class="reserved__button reserved__table--restaurant">
+        Забронювати столик
+      </button>
+
+      <!-- додати атрибут для модалки
+      <button type="button" class="reserved__button reserved__room">
+
+        Забронювати номер
+      </button> -->
+      <!-- реалізувати якорне посилання на меню -->
+      <button type="button" class="reserved__button review-menu">
+        Переглянути меню
+      </button>
+    </div>
+    <address class="hero__address">
+      <svg class="icon-gps" width="20" height="20">
+        <use href="/sprite.f14d31f7.svg#gps"></use>
+      </svg>
+      <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="link address">Україна, м. Полтава, <br>
+        вул. Маршала Бірюзова, 15</a>
+    </address>
+    <!-- додати шляхи до соцмереж -->
+    <ul class="soc__list list">
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#instagram"></use></svg></a>
+      </li>
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#facebook"></use></svg></a>
+      </li>
+      <li class="soc__item">
+        <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link"><svg class="soc__icon" width="24" height="24">
+            <use href="/sprite.f14d31f7.svg#telegram"></use></svg></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-kitchen">
+  <div class="container">
+    <div class="about-kitchen__pos">
+      <h2 class="is-hidden">Про наш Ресторан</h2>
+      <div class="about-kitchen__contain">
+        <p class="about-kitchen__pretitle pretitle">Amet minim mollit non</p>
+        <p class="about-kitchen__title title">MIMIHO</p>
+        <p class="about-kitchen__text text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <div class="about-kitchen__thumb">
+        <picture>
+          <source srcset="/image-1.3f3b7bc0.jpg    1x, /image-1-2x.d5950687.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-1.607f393f.jpg    1x, /image-1-2x.576375b9.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-1.d500f33a.jpg    1x, /image-1-2x.b18109d0.jpg 2x" media="(min-width: 414px)">
+          <img class="about-kitchen__image" src="/image-1-2x.b18109d0.jpg" alt="Наша кухня" width="460">
+        </picture>
+      </div>
+    </div>
+    <div class="about-kitchen__container">
+      <div class="about-kitchen__pic">
+        <picture>
+          <source srcset="/image-2.67dfe9c0.jpg    1x, /image-2-2x.162bb822.jpg 2x" media="(min-width: 1280px)">
+          <source srcset="/image-2.1d37df71.jpg    1x, /image-2-2x.8e8f72fc.jpg 2x" media="(min-width: 1024px)">
+          <source srcset="/image-2.55c7b520.jpg    1x, /image-2-2x.071e6f1f.jpg 2x" media="(min-width: 414px)">
+          <img class="about-kitchen__image" src="/image-2-2x.071e6f1f.jpg" alt="Наша кухня" width="460">
+        </picture>
+      </div>
+      <p class="about-kitchen__desc text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+    <div class="about-kitchen__wrapper">
+      <div class="slider-about about-kitchen__slider">
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-17.1071a28f.jpg    1x, /image-17-2x.0593e243.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-19.45e0f8fb.jpg    1x, /image-19-2x.7396e087.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-17.1071a28f.jpg    1x, /image-17-2x.0593e243.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-17-2x.0593e243.jpg" alt="Зображення слайдеру" width="245"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-18.b3135168.jpg    1x, /image-18-2x.f9ae53f9.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-20.b716a898.jpg    1x, /image-20-2x.594d4f9d.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-18.b3135168.jpg    1x, /image-18-2x.f9ae53f9.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-18-2x.f9ae53f9.jpg" alt="Зображення слайдеру" width="245"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-9.fe38abb0.jpg    1x, /image-9-2x.79a01c2e.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-9.6c0668e8.jpg    1x, /image-9-2x.8c2f5c62.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-9.fe38abb0.jpg    1x, /image-9-2x.79a01c2e.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-9-2x.79a01c2e.jpg" alt="Зображення слайдеру" width="245"></picture>
+        </div>
+        <div class="slider_card">
+          <picture>
+            <source srcset="/image-16.2b403ce9.jpg    1x, /image-16-2x.409ffe8c.jpg 2x" media="(min-width: 1280px)">
+            <source srcset="/image-16.1b455575.jpg    1x, /image-16-2x.f2eb4e85.jpg 2x" media="(min-width: 1024px)">
+            <source srcset="/image-16.2b403ce9.jpg    1x, /image-16-2x.409ffe8c.jpg 2x" media="(min-width: 414px)">
+            <img src="/image-16-2x.409ffe8c.jpg" alt="Зображення слайдеру" width="245"></picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="restoran__menu container">
+  <h3 class="restoran__menu-title">Меню ресторану</h3>
+  <div class="table-flex">
+    <div class="table">
+      <div class="table__block-item">
+        <h4 class="dich__title-group">Гарячі страви</h4>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Борщ з телятини з квасолею</h5>
+            <p class="dich__composition">
+              Телятина, картопля, капуста, морква, цибуля, квасоля, часник,
+              помідори, зелень, сметана
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">400 г</span>
+            <span class="dich__price">240 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Суп сирний з куркою</h5>
+            <p class="dich__composition">
+              Курятина, картопля, морква, цибуля, печериці, сир м’який, зелень
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">400 г</span>
+            <span class="dich__price">200 грн</span>
+          </div>
+        </div>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Паста карбонара</h5>
+            <p class="dich__composition">
+              Паста тальятеле, бекон, вершки, сир пармезан, яйце, зелен
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">350 г</span>
+            <span class="dich__price">430 грн</span>
+          </div>
+        </div>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Стейк зі свинини</h5>
+            <p class="dich__composition">
+              Свиняча вирізка, спеціі, подається з соусом солодкий чилі та
+              овочами
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">400 г</span>
+            <span class="dich__price">500 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Горбуша в соусі з білого вина</h5>
+            <p class="dich__composition">
+              Ніжна горбуша, вершковий соус на основі білого вина
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">400 г</span>
+            <span class="dich__price">400 грн</span>
+          </div>
+        </div>
+      </div>
+      <div class="table__blok-item">
+        <h4 class="dich__title-group">Гарніри та закуски</h4>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Запечені овочі</h5>
+            <p class="dich__composition">Кабачок, перець, помідор, баклажан</p>
+          </div>
+          <di class="dich__block-two-col">
+            <span class="dich__weight">200 г</span>
+            <span class="dich__price">230 грн</span>
+          </di>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Картопля фрі</h5>
+            <p class="dich__composition">Картопля, соус томатний</p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">150 г</span>
+            <span class="dich__price">160 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Картопля по-селянськи</h5>
+            <p class="dich__composition">Картопля, спеції, соус пікантний</p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">150 г</span>
+            <span class="dich__price">160 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Хрумкі соління з бочки</h5>
+            <p class="dich__composition">
+              Огірок солений, помідор квашений, квашена капуста, морква
+              по-корейські
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">250 г</span>
+            <span class="dich__price">350 грн</span>
+          </div>
+        </div>
+        <div class="dich__block dich__block--margin">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Крильця курячі в медовому соусі</h5>
+            <p class="dich__composition">
+              Крильця курячі, гірчично-медовий соус, подається з морквою,
+              селерою і соусом блючиз
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">400 г</span>
+            <span class="dich__price">420 грн</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="table">
+      <div class="table__block-item">
+        <h4 class="dich__title-group">Салати</h4>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Цезар з куркою</h5>
+            <p class="dich__composition">
+              Куряче філе, листя салату, помідори чері, сир пармезан, грінки,
+              соус цезар
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">450 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Цезар з креветками</h5>
+            <p class="dich__composition">
+              Тигрові креветки, листя салату, помідори чері, сир пармезан,
+              грінки, соус цезар
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">300 грн</span>
+          </div>
+        </div>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Грецький салат</h5>
+            <p class="dich__composition">
+              Свіжі огірок, помідор, болгарський перець, оливки, сир бринза,
+              листя салату, соус
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">280 грн</span>
+          </div>
+        </div>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">М’ясний салат</h5>
+            <p class="dich__composition">
+              Куряче філе або свиняча вирізка, свіжі огірок, помідор,
+              болгарський перець, соус ранч
+            </p>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">300 грн</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="table__block-item">
+        <h4 class="dich__title-group">Десерти</h4>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Торт наполеон</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">300 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Торт маковий</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">230 г</span>
+            <span class="dich__price">300 грн</span>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Тірамісу</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">120 г</span>
+            <span class="dich__price">260 грн</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="table__block-item">
+        <h4 class="dich__title-group">Напої</h4>
+
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Чай чорний/зелений</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <spam class="dich__weight">500 мл</spam>
+            <spam class="dich__price">100 грн</spam>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Еспресо</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <spam class="dich__weight">30 мл</spam>
+            <spam class="dich__price">100 грн</spam>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Американо</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <spam class="dich__weight">150 мл</spam>
+            <spam class="dich__price">100 грн</spam>
+          </div>
+        </div>
+        <div class="dich__block">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Капучино</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <spam class="dich__weight">200 мл</spam>
+            <spam class="dich__price">160 грн</spam>
+          </div>
+        </div>
+        <div class="dich__block dich__block--margin">
+          <div class="dich__block-one-col">
+            <h5 class="dich__title">Лате</h5>
+          </div>
+          <div class="dich__block-two-col">
+            <span class="dich__weight">200 мл</span>
+            <span class="dich__price">160 грн</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="restoran__button">Забронювати столик</button>
+</section>
+
+    </main>
+    <!-- <footer class="footer">
+  <div class="footer__container">
+    <a href="#" class="footer__logo">Mimino</a>
+
+    <div class="footer__menu">
+      <ul>
+        <li class="list footer__menu-item">
+          <a href="" class="link footer__link">Головна</a>
+        </li>
+        <li class="list footer__menu-item">
+          <a href="" class="link footer__link">Ресторан</a>
+        </li>
+        <li class="list footer__menu-item">
+          <a href="./hotel.html" class="link footer__link">Готель</a>
+        </li>
+      </ul>
+
+      <div class="footer__social--mob">
+        <ul class="footer__soc">
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="list">
+            <a href="" class="soc__icon">
+              <svg width="19.5px" height="17.5px">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__btn-social">
+      <ul class="footer__btn-soc">
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Instagram</span>
+            <a href="" class="soc__icon">
+              <svg width="20 px" height="20 px">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Facebook</span>
+            <a href="" class="soc__icon">
+              <svg width="20px" height="20px">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+        <li class="list footer__btn-item">
+          <button type="button" class="footer__button">
+            <span class="btn-label">Telegram</span>
+            <a href="" class="soc__icon">
+              <svg width="19.5px" height="17.5px">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer> -->
+
+
+<!-- Соня нижче -->
+
+<footer class="footer__section">
+  <div class="container footer__container">
+    <div class="footer__logo-box">
+      <a href="/index.html">
+        <p class="footer__logo">MIMIHO</p>
+      </a>
+    </div>
+    <div class="footer__container-item">
+      <ul class="footer__nav-list">
+        <li><a class="footer__nav-item" href="/index.html">Головна</a></li>
+        <li><a class="footer__nav-item" href="/restaurant.html">Ресторан</a></li>
+        <li><a class="footer__nav-item" href="/hotel.html">Готель</a></li>
+      </ul>
+      <!-- соцмережі при мобільному -->
+      <ul class="footer__soc-list tablet-desc-hide">
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg class="footer__soc-icon">
+              <use href="/sprite.f14d31f7.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+  </div>
+
+    <!-- соцмережі при таблеті та десктопі -->
+    <ul class="mob-footer-hide footer__desk-soc-list">
+      <li>
+        <a class="footer__desk-soc-item" href="">Telegram
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#telegram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="footer__desk-soc-item" href="">Facebook
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#facebook"></use>
+          </svg>
+
+        </a>
+      </li>
+      <li>
+        <a class="footer__desk-soc-item" href="">Instagram
+          <svg class="footer__soc-icon">
+            <use href="/sprite.f14d31f7.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</footer>
+
+     <!-- slick jquery js -->
+     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   <!-- slick js -->
+   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <!-- slick - скрипт для запуску -->
+   <script src="/restaurant.d717632a.js" defer=""></script>
+ </body>
+  
+</html>
